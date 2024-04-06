@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XiaoBai</title>
+  <link rel="stylesheet" href="new.css">
+  <script defer src="./index.js" ></script>
+</head>
+<body>
+  <header>
+    <h1>🐶 XiaoBai</h1>
+  </header>
+
+  <nav>
+    <a href="#" id="images">Xiaobai's photos</a>
+    <a href="#" id="videos">Xiaobai's Videos</a>
+    <a href="#" id="family">Xiaobai's Family</a>
+    <a href="#" id="stickers">Xiaobai's Stickers</a>
+    <a href="#" id="friends">Xiaobai's Friends</a>
+  </nav>
+
+  <div class="images-container">
+    <!-- Images will be dynamically added here -->
+  </div>
+
+  <section class="single-image-container">
+    <img id="single-image" src="../小白/assets/小白/xiaobai.jpg" alt="Image Description">
+    <p id="dP">When the weather is nice, I like to take Xiaobai out to the park.</p>
+  </section>
+
+  <section class="comment-section">
+    <form id="commentForm">
+      <label>
+        <input type="text" name="name" id="name" placeholder="your name" required>
+      </label>
+      <textarea name="comment" id="comment" placeholder="Enter your comment" required></textarea>
+      <button type="submit">Add Comment</button>
+    </form>
+    <div class="comments-container">
+      <!-- Comments will be dynamically added here -->
+      <p id="first-p"></p>
+      <p id="second-p"></p>
+    </div>
+  </section>
+
+</body>
+</html>
